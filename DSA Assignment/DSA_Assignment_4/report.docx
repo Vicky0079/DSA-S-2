@@ -1,0 +1,51 @@
+# DATA STRUCTURES IMPLEMENTATION REPORT
+
+## 1. Aim
+
+To implement:
+- Binary Search Tree (BST)
+- Graph Traversals (BFS and DFS)
+- Hash Table using Separate Chaining
+
+---
+
+## 2. Binary Search Tree
+
+Operations implemented:
+- Insert
+- Search
+- Inorder Traversal
+
+BST stores elements in sorted order.
+
+---
+
+## 3. Graph Implementation
+
+A directed weighted graph was implemented using adjacency list representation.
+
+Traversals performed:
+- BFS (Breadth First Search)
+- DFS (Depth First Search)
+
+Traversal orders were printed.
+
+---
+
+## 4. Hash Table
+
+Hash table was implemented using separate chaining to handle collisions.
+
+Operations implemented:
+- Insert
+- Search
+- Delete
+
+Collision handling was demonstrated successfully.
+
+---
+
+## 5. Conclusion
+
+All required data structures were implemented successfully.
+The program demonstrated BST operations, graph traversals, and hash table collision handling correctly.

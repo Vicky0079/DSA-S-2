@@ -1,0 +1,27 @@
+===== BINARY SEARCH TREE =====
+Inorder Traversal:
+20 30 50 
+
+40 Found in BST
+
+===== GRAPH BFS AND DFS =====
+BFS Traversal:
+0 1 2 3 4 
+DFS Traversal:
+0 1 3 2 4 
+
+===== HASH TABLE =====
+Hash Table:
+0 []
+1 [(1, 'Apple'), (6, 'Banana'), (11, 'Mango')]
+2 []
+3 []
+4 []
+Search Key 6: Banana
+After Deletion:
+Hash Table:
+0 []
+1 [(1, 'Apple'), (11, 'Mango')]
+2 []
+3 []
+4 []
