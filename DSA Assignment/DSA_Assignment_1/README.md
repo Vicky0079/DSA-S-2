@@ -1,99 +1,116 @@
-# 📘 Unit 2 Assignment – Data Structures
+# Recursion and Searching Algorithms in Python
 
-## 👤 Student Details
-- **Name:** Vicky  
-- **Program:** B.Tech CSE (Core)  
-- **Section:** A  
+This project contains Python programs based on Recursion and Searching Algorithms.
 
----
+## Programs Included
 
-## 📌 Assignment Overview
-This assignment focuses on implementing fundamental data structures and analyzing their performance.
-
-The following topics are covered:
-- Dynamic Array (with resizing & amortized analysis)
-- Singly Linked List (SLL)
-- Doubly Linked List (DLL)
-- Stack using SLL
-- Queue using SLL
-- Parentheses Checker using Stack
+1. Recursive Factorial
+2. Recursive Fibonacci
+3. Tower of Hanoi
+4. Recursive Binary Search
 
 ---
 
-## 🧩 Implementations
+# 1. Recursive Factorial
 
-### 🔹 1. Dynamic Array
-- Supports:
-  - `append()` (with resizing)
-  - `pop()`
-- Uses doubling strategy for resizing
+Factorial of a number is calculated using recursion.
 
-**Time Complexity:**
-- Append → O(1) amortized  
-- Pop → O(1)
+## Formula
 
----
+```text
+n! = n × (n-1)!
+```
 
-### 🔹 2. Singly Linked List (SLL)
-- Operations:
-  - Insert at beginning
-  - Insert at end
-  - Delete
-  - Traverse
+## Complexities
 
-**Time Complexity:**
-- Insert (head) → O(1)  
-- Insert (end) → O(n)  
-- Traversal → O(n)
+- Time Complexity: O(n)
+- Space Complexity: O(n)
 
 ---
 
-### 🔹 3. Doubly Linked List (DLL)
-- Features:
-  - Forward and backward traversal
-  - Uses `prev` and `next` pointers
+# 2. Recursive Fibonacci
 
-**Time Complexity:**
-- Insert/Delete → O(1) (given node)  
-- Traversal → O(n)
+Fibonacci series using recursion.
 
----
+## Formula
 
-### 🔹 4. Stack using SLL
-- Follows **LIFO (Last In First Out)**
-- Operations:
-  - Push
-  - Pop
-  - Peek
+```text
+F(n) = F(n-1) + F(n-2)
+```
 
-**Time Complexity:**
-- All operations → O(1)
+## Complexities
+
+- Time Complexity: O(2ⁿ)
+- Space Complexity: O(n)
+
+## Memoization Version
+
+Using memoization improves performance by storing previously calculated values.
 
 ---
 
-### 🔹 5. Queue using SLL
-- Follows **FIFO (First In First Out)**
-- Operations:
-  - Enqueue
-  - Dequeue
+# 3. Tower of Hanoi
 
-**Time Complexity:**
-- All operations → O(1)
+Tower of Hanoi is a recursive problem where disks are moved between rods following rules.
 
----
+## Formula
 
-### 🔹 6. Parentheses Checker
-- Uses stack to validate expressions
-- Checks for balanced brackets: `()`, `{}`, `[]`
+```text
+T(n) = 2T(n-1) + 1
+```
 
-**Time Complexity:**
-- Time → O(n)  
-- Space → O(n)
+## Complexities
+
+- Time Complexity: O(2ⁿ)
+- Space Complexity: O(n)
 
 ---
 
-## ▶️ How to Run
-1. Make sure Python is installed
-2. Run the main file:
-   ```bash
-   python filename.py
+# 4. Recursive Binary Search
+
+Binary Search works on a sorted array and divides the search space into half each time.
+
+## Formula
+
+```text
+T(n) = T(n/2) + 1
+```
+
+## Complexities
+
+- Time Complexity: O(log n)
+- Space Complexity: O(log n)
+
+---
+
+# Technologies Used
+
+- Python 3
+- Recursion
+- Memoization
+- Searching Algorithms
+
+---
+
+# How to Run
+
+```bash
+python filename.py
+```
+
+---
+
+# Learning Outcomes
+
+- Understanding Recursion
+- Recursive Function Calls
+- Memoization
+- Divide and Conquer
+- Time and Space Complexity
+- Searching Algorithms
+
+---
+
+# Author
+
+Vicky
