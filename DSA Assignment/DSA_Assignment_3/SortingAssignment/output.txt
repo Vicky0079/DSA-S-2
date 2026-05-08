@@ -1,0 +1,51 @@
+
+Dataset Size: 1000
+
+Random Data
+Insertion Sort: 0.013885 seconds
+Merge Sort: 0.001152 seconds
+Quick Sort: 0.001143 seconds
+
+Sorted Data
+Insertion Sort: 0.000083 seconds
+Merge Sort: 0.000883 seconds
+Quick Sort: 0.000594 seconds
+
+Reverse Sorted Data
+Insertion Sort: 0.024504 seconds
+Merge Sort: 0.001106 seconds
+Quick Sort: 0.000577 seconds
+
+Dataset Size: 5000
+
+Random Data
+Insertion Sort: 0.302322 seconds
+Merge Sort: 0.006170 seconds
+Quick Sort: 0.006759 seconds
+
+Sorted Data
+Insertion Sort: 0.000353 seconds
+Merge Sort: 0.005152 seconds
+Quick Sort: 0.003517 seconds
+
+Reverse Sorted Data
+Insertion Sort: 0.590838 seconds
+Merge Sort: 0.005536 seconds
+Quick Sort: 0.003609 seconds
+
+Dataset Size: 10000
+
+Random Data
+Insertion Sort: 1.337650 seconds
+Merge Sort: 0.013934 seconds
+Quick Sort: 0.011994 seconds
+
+Sorted Data
+Insertion Sort: 0.000672 seconds
+Merge Sort: 0.011166 seconds
+Quick Sort: 0.007003 seconds
+
+Reverse Sorted Data
+Insertion Sort: 2.482160 seconds
+Merge Sort: 0.010924 seconds
+Quick Sort: 0.006924 seconds

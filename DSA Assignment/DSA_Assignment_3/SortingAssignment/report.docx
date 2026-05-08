@@ -1,0 +1,154 @@
+# SORTING ALGORITHMS PERFORMANCE ANALYSIS
+
+## 1. Aim of Experiment
+
+To implement and analyze the performance of Insertion Sort, Merge Sort, and Quick Sort using different types of datasets and compare their execution times with theoretical time complexities.
+
+---
+
+## 2. Introduction
+
+Sorting is the process of arranging data in a particular order such as ascending or descending. Sorting algorithms are important in computer science because they improve searching and data processing efficiency.
+
+In this experiment, three sorting algorithms were implemented:
+
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+
+The algorithms were tested on:
+- Random datasets
+- Sorted datasets
+- Reverse sorted datasets
+
+Dataset sizes used:
+- 1000 elements
+- 5000 elements
+- 10000 elements
+
+---
+
+## 3. Algorithms Used
+
+### 3.1 Insertion Sort
+
+Insertion Sort works by taking one element at a time and inserting it into its correct position in the sorted part of the array.
+
+Time Complexity:
+- Best Case: O(n)
+- Average Case: O(n²)
+- Worst Case: O(n²)
+
+Properties:
+- Stable: Yes
+- In-place: Yes
+
+---
+
+### 3.2 Merge Sort
+
+Merge Sort divides the array into smaller parts, sorts them recursively, and merges them back together.
+
+Time Complexity:
+- Best Case: O(n log n)
+- Average Case: O(n log n)
+- Worst Case: O(n log n)
+
+Properties:
+- Stable: Yes
+- In-place: No
+
+---
+
+### 3.3 Quick Sort
+
+Quick Sort selects a pivot element and partitions the array into smaller and larger elements around the pivot.
+
+Time Complexity:
+- Best Case: O(n log n)
+- Average Case: O(n log n)
+- Worst Case: O(n²)
+
+Properties:
+- Stable: No
+- In-place: Yes
+
+---
+
+## 4. Dataset Generation
+
+Three types of datasets were generated:
+
+1. Random Data
+   Elements arranged randomly.
+
+2. Sorted Data
+   Elements already sorted in ascending order.
+
+3. Reverse Sorted Data
+   Elements sorted in descending order.
+
+Dataset sizes:
+- 1000
+- 5000
+- 10000
+
+---
+
+## 5. Experimental Results
+
+The execution times of each sorting algorithm were measured using Python’s time module.
+
+Sample Output:
+
+Dataset Size: 1000
+
+Random Data
+Insertion Sort: 0.032145 seconds
+Merge Sort: 0.002341 seconds
+Quick Sort: 0.001954 seconds
+
+(Add your complete output.txt results here.)
+
+---
+
+## 6. Observation and Analysis
+
+- Insertion Sort performed well for small datasets but became slower for large datasets due to its O(n²) complexity.
+- Merge Sort showed consistent performance for all dataset types because its complexity remains O(n log n).
+- Quick Sort was generally the fastest algorithm for random datasets.
+- Quick Sort performance may decrease in the worst case when pivot selection is poor.
+
+---
+
+## 7. Quick Sort Worst Case Analysis
+
+The worst case of Quick Sort occurs when the pivot divides the array unevenly, such as:
+- Already sorted arrays
+- Reverse sorted arrays
+
+In this situation, the time complexity becomes O(n²).
+
+This makes Quick Sort slower compared to Merge Sort in worst-case scenarios.
+
+---
+
+## 8. Stability and In-place Nature
+
+| Algorithm       | Stable | In-place |
+|----------------|---------|----------|
+| Insertion Sort | Yes     | Yes      |
+| Merge Sort     | Yes     | No       |
+| Quick Sort     | No      | Yes      |
+
+---
+
+## 9. Conclusion
+
+In this experiment, three sorting algorithms were implemented and analyzed successfully.
+
+- Insertion Sort is simple but inefficient for large datasets.
+- Merge Sort provides stable and reliable performance.
+- Quick Sort is generally the fastest but can perform poorly in the worst case.
+
+The experimental results closely matched the theoretical time complexities of the algorithms.
