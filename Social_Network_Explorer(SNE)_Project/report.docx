@@ -1,0 +1,83 @@
+# SOCIAL NETWORK EXPLORER REPORT
+
+## 1. Aim
+
+To design and implement a simplified Social Network Explorer using:
+- Hashing
+- Graphs
+- BFS
+- DFS
+- Sorting
+
+---
+
+## 2. Features Implemented
+
+### Profile Management
+- Add user
+- Get profile
+- Update profile
+
+### Social Network Graph
+- Add friendships
+- Remove friendships
+- Display friends list
+
+### BFS
+Used to find shortest path between users.
+
+### DFS
+Used to explore friends-of-friends up to a certain depth.
+
+### Friend Recommendation
+Suggested users based on common interests.
+
+---
+
+## 3. Data Structures Used
+
+| Feature | Data Structure |
+|---------|----------------|
+| Profiles | Dictionary (Hashing) |
+| Network | Graph Adjacency List |
+| BFS | Queue |
+| DFS | Recursion + Set |
+| Recommendation | Sorting + Hashing |
+
+---
+
+## 4. Complexity Analysis
+
+### BFS
+Time Complexity: O(V + E)
+
+### DFS
+Time Complexity: O(V + E)
+
+### Hash Table Operations
+Average Complexity: O(1)
+
+### Sorting Recommendations
+Time Complexity: O(n log n)
+
+---
+
+## 5. Design Decisions
+
+- Dictionary was used for fast profile lookup.
+- Graph adjacency list was used for efficient connections.
+- BFS was selected for shortest path discovery.
+- DFS was used for depth-based exploration.
+
+---
+
+## 6. Conclusion
+
+The Social Network Explorer successfully demonstrated:
+- Profile management
+- Social graph connections
+- BFS shortest path
+- DFS exploration
+- Friend recommendation system
+
+All required capstone objectives were completed successfully.

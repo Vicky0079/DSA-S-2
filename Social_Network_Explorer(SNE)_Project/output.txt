@@ -1,0 +1,35 @@
+===== USER PROFILES =====
+Alice: {'age': 20, 'city': 'Gurgaon', 'interests': ['Music', 'Gaming', 'Coding']}
+Bob: {'age': 22, 'city': 'Mumbai', 'interests': ['Sports', 'Fitness', 'Gaming']}
+Charlie: {'age': 21, 'city': 'Pune', 'interests': ['Coding', 'Reading', 'Music']}
+
+Social Network Connections:
+Alice -> ['Bob', 'Charlie']
+Bob -> ['Alice', 'David', 'Frank']
+Charlie -> ['Alice', 'Eva']
+David -> ['Bob', 'Frank']
+Eva -> ['Charlie', 'Grace']
+Frank -> ['David', 'Helen', 'Bob']
+Grace -> ['Eva', 'Helen']
+Helen -> ['Frank', 'Grace']
+
+===== BFS SHORTEST PATH =====
+Path from Alice to Helen:
+['Alice', 'Bob', 'Frank', 'Helen']
+Path from Charlie to Frank:
+['Charlie', 'Alice', 'Bob', 'Frank']
+
+===== DFS EXPLORATION =====
+Users discovered from Alice with depth 2:
+{'David', 'Charlie', 'Eva', 'Frank', 'Bob', 'Alice'}
+Users discovered from Alice with depth 3:
+{'David', 'Charlie', 'Grace', 'Eva', 'Frank', 'Bob', 'Alice'}
+
+===== FRIEND RECOMMENDATIONS =====
+Charlie - Common Interests: 2
+Helen - Common Interests: 2
+Bob - Common Interests: 1
+David - Common Interests: 1
+Eva - Common Interests: 1
+Frank - Common Interests: 1
+Grace - Common Interests: 1
